@@ -1,7 +1,31 @@
 aid: pazpo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pazpo.png
 name: Pazpo
-description: Pazpo is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pazpo was an Indonesian property-technology (proptech) marketplace that
+  billed itself as the country's first property search engine ("Mesin Pencari
+  Properti Pertama di Indonesia"), letting users buy, sell, and rent homes,
+  shophouses (ruko), apartments, warehouses, offices, and land across Jakarta,
+  Tangerang, and the wider Indonesian market via web and a companion mobile
+  app. It was surfaced as a portfolio company of 500 Global (500 Startups) and
+  added to the API Evangelist network as a lead for the enrichment pipeline.
+  The enrichment pass found the company defunct: the pazpo.id domain no longer
+  resolves (DNS lookup fails), and by 2024 the lapsed domain had been taken
+  over by an unrelated Indonesian online-gambling ("togel") site. No live
+  website, developer portal, API, SDK, or documentation surface exists to
+  harvest; historical detail here is reconstructed from Internet Archive
+  captures (2015-2017).
 url: https://raw.githubusercontent.com/api-evangelist/pazpo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +33,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: >-
+  pazpo.id DNS no longer resolves; by 2024-11 the lapsed domain served an
+  unrelated online-gambling site. No API surface. Historical facts from
+  Internet Archive Wayback captures.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Property
+- Proptech
+- Marketplace
+- Indonesia
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +58,8 @@ maintainers:
 common:
 - type: Website
   url: https://pazpo.id
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
