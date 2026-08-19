@@ -38,7 +38,7 @@ x-status-detail: >-
   pazpo.id DNS no longer resolves; by 2024-11 the lapsed domain served an
   unrelated online-gambling site. No API surface. Historical facts from
   Internet Archive Wayback captures.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
