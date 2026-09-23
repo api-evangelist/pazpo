@@ -1,0 +1,25 @@
+# Front Door AI Index — pazpo — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: pazpo
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: pazpo.id
+  final_host: pazpo.id
+  ownership: inherited
+  owner: pazpo
+  shares_host_with: null
+  inherited_from: bilimber.com
+  verdict: scored
+  score: null
+  host_score: 2
+  density: null
+  words: 134
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 2
